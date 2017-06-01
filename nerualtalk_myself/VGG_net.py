@@ -15,17 +15,19 @@
 # https://keras-cn.readthedocs.io/en/latest/other/application/
 from keras.applications.vgg16 import VGG16
 from keras.preprocessing import image
-from keras.applications.vgg16 import preprocess_input
-from keras.utils.data_utils import get_file
+from keras.applications.vgg16 import preprocess_input, decode_predictions
+import numpy as np
+#from keras.utils.data_utils import get_file
 
 #import numpy as np
-weights_path = get_file('vgg16_weights_tf_dim_ordering_tf_kernels.h5')
+#weights_path = get_file('vgg16_weights_tf_dim_ordering_tf_kernels.h5')
 model = VGG16(weights='imagenet', include_top=True)
 
-img_path = 'elephant.jpg'
+img_path = 'IMG_20170528_122525_E5A.jpg'
 img = image.load_img(img_path, target_size=(224, 224))
 x = image.img_to_array(img)
 x = np.expand_dims(x, axis=0)
 x = preprocess_input(x)
 
 features = model.predict(x)
+print('Predicted:', decode_predictions(features, top=3)[0])
