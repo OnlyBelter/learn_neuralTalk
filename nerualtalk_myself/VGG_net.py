@@ -1,28 +1,25 @@
-import numpy as np
-from scipy.misc import imread, imresize
-import os
-root_dir = r'D:\vm_share_folder\learning_nerualtalk\nerualtalk_myself\TF_vgg'
-file_name = 'vgg16_weights.npz'
-
-def load_weights(weight_file):
-    weights = np.load(weight_file)
-    keys = sorted(weights.keys())
-    for i, k in enumerate(keys):
-        print(i, k, np.shape(weights[k]))
-    return weights
-
-weights = load_weights(os.path.join(root_dir, file_name))
-
+#import numpy as np
+#from scipy.misc import imread, imresize
+#import os
+#root_dir = r'D:\vm_share_folder\learning_nerualtalk\nerualtalk_myself\TF_vgg'
+#file_name = 'vgg16_weights.npz'
+#
+#def load_weights(weight_file):
+#    weights = np.load(weight_file)
+#    keys = sorted(weights.keys())
+#    for i, k in enumerate(keys):
+#        print(i, k, np.shape(weights[k]))
+#    return weights
+#
+#weights = load_weights(os.path.join(root_dir, file_name))
+# 
 from keras.applications.vgg16 import VGG16
 from keras.preprocessing import image
 from keras.applications.vgg16 import preprocess_input
 from keras.utils.data_utils import get_file
-import h5py
 
 #import numpy as np
-weights_path = get_file('vgg16_weights_tf_dim_ordering_tf_kernels.h5', 'a')
-with open h5py.file(weights_path, 'r') as f_handle:
-    f_handle()
+weights_path = get_file('vgg16_weights_tf_dim_ordering_tf_kernels.h5')
 model = VGG16(weights='imagenet', include_top=True)
 
 img_path = 'elephant.jpg'
