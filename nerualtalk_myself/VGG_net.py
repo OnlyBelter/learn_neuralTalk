@@ -12,7 +12,7 @@
 #    return weights
 #
 #weights = load_weights(os.path.join(root_dir, file_name))
-# 
+# https://keras-cn.readthedocs.io/en/latest/other/application/
 from keras.applications.vgg16 import VGG16
 from keras.preprocessing import image
 from keras.applications.vgg16 import preprocess_input
