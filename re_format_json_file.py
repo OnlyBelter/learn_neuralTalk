@@ -10,9 +10,9 @@ import json
 import os
 
 
-dataset_root = r'/media/sf_vm_share_folder/neuraltalk'
-dataset_path = os.path.join(dataset_root, 'result_struct.json')
+dataset_root = r'D:\vm_share_folder\neuraltalk\data\coco'
+dataset_path = os.path.join(dataset_root, 'dataset.json')
 
 dataset = json.load(open(dataset_path, 'r'))
-with open(os.path.join(dataset_root, 'result_struct_2.json'), 'w') as file_handle:
+with open(os.path.join(dataset_root, 'dataset_2.json'), 'w') as file_handle:
     file_handle.write(json.dumps(dataset, indent = 2))
