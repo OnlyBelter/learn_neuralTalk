@@ -6,6 +6,10 @@ from keras.applications.vgg16 import preprocess_input, decode_predictions
 import numpy as np
 import os
 
+weights_path = r'C:\Users\xin\.keras\models\vgg16_weights_tf_dim_ordering_tf_kernels.h5'
+self_pic_dir = r'D:\vm_share_folder\learn_neuralTalk\nerualtalk_myself\self_pic'
+
+
 def vgg16_model(weights_path):
     # this modle totaly has 22 layers with polling 
     model = Sequential()
@@ -51,9 +55,6 @@ def vgg16_model(weights_path):
 #        return model.pop()  # delete the last layer
 
 
-weights_path = r'C:\Users\Belter\.keras\models\vgg16_weights_tf_dim_ordering_tf_kernels.h5'
-model = vgg16_model(weights_path)
-
 def process_pic(img_path, model='', predict=True):
     img_path = img_path
     img = image.load_img(img_path, target_size=(224, 224))
@@ -62,43 +63,45 @@ def process_pic(img_path, model='', predict=True):
     x = preprocess_input(x)
     
     if predict:  # predict pic's class
-        features = model.predict(x)  # 4096 features
-        # print('Predicted:', decode_predictions(features, top=3)[0])
-        return decode_predictions(features, top=3)[0]
-    else:  # return 4096 features
+        last_layer_features = model.predict(x)  # 4096 last_layer_features
+        # print('Predicted:', decode_predictions(last_layer_features, top=3)[0])
+        return decode_predictions(last_layer_features, top=3)[0]
+    else:  # return 4096 last_layer_features
         if len(model.layers) == 22:
             model.pop()  # delete the last layer
-        features = model.predict(x)
-        return features
+        last_layer_features = model.predict(x)
+        return last_layer_features
 
-self_pic_dir = r'D:\vm_share_folder\learn_neuralTalk\nerualtalk_myself\self_pic'
 
-# predict images' classes
-line = 0
-for root, dirs, files in os.walk(os.path.join(self_pic_dir, 'img')):
-    for f in files:
-        if f.endswith('jpg'):
-            # print(f)
-            img_path = os.path.join(root, f)
-            predict_results = process_pic(img_path, model=model)
-            predict_list = [': '.join(str(i) for i in list(_[1:])) for _ in predict_results]
-            output_str = '\t'.join([f, str(line)] + predict_list)
-            line += 1
-            with open(os.path.join(self_pic_dir, 'predict_images_class.txt'), 'a') as f_handle:
-                f_handle.write(output_str + '\n')
+if __name__ == '__main__':
+    model = vgg16_model(weights_path)
+    # predict images' classes
+    line = 0
+    for root, dirs, files in os.walk(os.path.join(self_pic_dir, 'img')):
+        for f in files:
+            if f.endswith('jpg'):
+                # print(f)
+                img_path = os.path.join(root, f)
+                predict_results = process_pic(img_path, model=model)
+                predict_list = [': '.join(str(i) for i in list(_[1:])) for _ in predict_results]
+                output_str = '\t'.join([f, str(line)] + predict_list)
+                line += 1
+                with open(os.path.join(self_pic_dir, 'predict_images_class.txt'), 'a') as f_handle:
+                    f_handle.write(output_str + '\n')
 
-# get images' features
-features = np.zeros([line, 4096])
-line2 = 0
-for root, dirs, files in os.walk(os.path.join(self_pic_dir, 'img')):
-    for f in files:
-        if f.endswith('jpg'):
-            print(f)
-            img_path = os.path.join(root, f)
-            features[line2] = process_pic(img_path, model=model, predict=False)
-            line2 += 1
-np.save(os.path.join(self_pic_dir, 'images_features'), features)         
-    
+    # get images' features
+    features = np.zeros([line, 4096])
+    line2 = 0
+    for root, dirs, files in os.walk(os.path.join(self_pic_dir, 'img')):
+        for f in files:
+            if f.endswith('jpg'):
+                print(f)
+                # f = 'butterfly1.jpg'
+                img_path = os.path.join(root, f)
+                features[line2] = process_pic(img_path, model=model, predict=False)
+                line2 += 1
+    np.save(os.path.join(self_pic_dir, 'images_features'), features)
+
 
 
 # see model's summary
