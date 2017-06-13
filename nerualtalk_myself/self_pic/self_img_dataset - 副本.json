@@ -1,0 +1,425 @@
+{
+  "images": [
+    {
+      "sentids": [], 
+      "imgid": "0", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "books1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "1", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "building1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "2", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "butterfly1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "3", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "castle1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "4", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "castle2.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "5", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "cat1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "6", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "cat2.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "7", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "child1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "8", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "child3.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "9", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "cloud1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "10", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "cloud2.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "11", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "cloud3.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "12", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "disney1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "13", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "flower1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "14", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "flower2.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "15", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "flower3.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "16", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "flower4.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "17", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "flower5.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "18", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "grass.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "19", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "IMG_20160206_133916_F1D.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "20", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "IMG_20160414_090304_757.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "21", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "IMG_20160904_181504_25C.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "22", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "IMG_20161105_100414_A19.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "23", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "IMG_20170506_121921_39F.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "24", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "IMG_20170524_075612_FDA.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "25", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "IMG_20170528_122525_E5A.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "26", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "lamp1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "27", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "morning1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "28", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "mountain1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "29", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "panda1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "30", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "panda2.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "31", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "panda3.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "32", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "people1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "33", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "persimmon1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "34", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "person1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "35", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "person2.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "36", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "person3.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "37", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "plant1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "38", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "plant2.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "39", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "playground1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "40", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "river1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "41", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "river2.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "42", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "road1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "43", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "road2.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "44", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "shanghai3.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "45", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "shanghai4.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "46", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "shanghai5.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "47", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "ski1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "48", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "ski2.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "49", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "ski3.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "50", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "step.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "51", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "things1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "52", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "things2.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "53", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "things3.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "54", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "things4.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "55", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "things5.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "56", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "trees1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "57", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "trees2.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "58", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "truck1.jpg"
+    }, 
+    {
+      "sentids": [], 
+      "imgid": "59", 
+      "split": "train", 
+      "senences": [], 
+      "filename": "wall1.jpg"
+    }
+  ], 
+  "dataset": "self_img"
+}

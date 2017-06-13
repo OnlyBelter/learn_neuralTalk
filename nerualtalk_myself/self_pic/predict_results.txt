@@ -1,0 +1,120 @@
+books1.jpg
+Predicted: [('n02870880', 'bookcase', 0.44820619), ('n02871525', 'bookshop', 0.13997017), ('n06596364', 'comic_book', 0.029396603)]
+building1.jpg
+Predicted: [('n02980441', 'castle', 0.60727698), ('n03877845', 'palace', 0.16031606), ('n04005630', 'prison', 0.027425865)]
+butterfly1.jpg
+Predicted: [('n03804744', 'nail', 0.28929305), ('n04153751', 'screw', 0.21118315), ('n03929660', 'pick', 0.10992658)]
+castle1.jpg
+Predicted: [('n03877845', 'palace', 0.31188363), ('n04486054', 'triumphal_arch', 0.2171333), ('n03781244', 'monastery', 0.18454631)]
+castle2.jpg
+Predicted: [('n03733281', 'maze', 0.13014033), ('n03877845', 'palace', 0.11624469), ('n09332890', 'lakeside', 0.11200443)]
+cat1.jpg
+Predicted: [('n02123597', 'Siamese_cat', 0.44397286), ('n02124075', 'Egyptian_cat', 0.16850394), ('n02110185', 'Siberian_husky', 0.10125187)]
+cat2.jpg
+Predicted: [('n02123045', 'tabby', 0.14908539), ('n03223299', 'doormat', 0.12894484), ('n02124075', 'Egyptian_cat', 0.032042529)]
+child1.jpg
+Predicted: [('n02869837', 'bonnet', 0.34630516), ('n04229816', 'ski_mask', 0.068773963), ('n03825788', 'nipple', 0.056047902)]
+child3.jpg
+Predicted: [('n03877472', 'pajama', 0.17982852), ('n03825788', 'nipple', 0.10243141), ('n03935335', 'piggy_bank', 0.048156653)]
+cloud1.jpg
+Predicted: [('n04592741', 'wing', 0.36630437), ('n09288635', 'geyser', 0.28913599), ('n09193705', 'alp', 0.113971)]
+cloud2.jpg
+Predicted: [('n09288635', 'geyser', 0.37150365), ('n04592741', 'wing', 0.13140617), ('n03888257', 'parachute', 0.0650732)]
+cloud3.jpg
+Predicted: [('n09288635', 'geyser', 0.49775392), ('n03388043', 'fountain', 0.3808108), ('n03837869', 'obelisk', 0.015304361)]
+disney1.jpg
+Predicted: [('n02950826', 'cannon', 0.91653091), ('n04192698', 'shield', 0.015193087), ('n03697007', 'lumbermill', 0.015029808)]
+flower1.jpg
+Predicted: [('n11939491', 'daisy', 0.98374546), ('n03930313', 'picket_fence', 0.003679025), ('n03991062', 'pot', 0.0016037101)]
+flower2.jpg
+Predicted: [('n03930313', 'picket_fence', 0.24255471), ('n11879895', 'rapeseed', 0.12269101), ('n03991062', 'pot', 0.08918155)]
+flower3.jpg
+Predicted: [('n03991062', 'pot', 0.1768416), ('n13040303', 'stinkhorn', 0.11582048), ('n01644373', 'tree_frog', 0.091656499)]
+flower4.jpg
+Predicted: [('n03991062', 'pot', 0.55253679), ('n02797295', 'barrow', 0.27706826), ('n04049303', 'rain_barrel', 0.029727267)]
+flower5.jpg
+Predicted: [('n03877845', 'palace', 0.18340532), ('n03788195', 'mosque', 0.0680779), ('n02980441', 'castle', 0.06400919)]
+grass.jpg
+Predicted: [('n03899768', 'patio', 0.16730277), ('n03891251', 'park_bench', 0.10859524), ('n03733281', 'maze', 0.078933366)]
+IMG_20160206_133916_F1D.jpg
+Predicted: [('n03355925', 'flagpole', 0.14751977), ('n02814860', 'beacon', 0.056063712), ('n02692877', 'airship', 0.054835625)]
+IMG_20160414_090304_757.jpg
+Predicted: [('n03223299', 'doormat', 0.89969939), ('n03291819', 'envelope', 0.019245787), ('n02892201', 'brass', 0.011275926)]
+IMG_20160904_181504_25C.jpg
+Predicted: [('n03388043', 'fountain', 0.84141189), ('n09332890', 'lakeside', 0.025532149), ('n04493381', 'tub', 0.02533563)]
+IMG_20161105_100414_A19.jpg
+Predicted: [('n03028079', 'church', 0.16626891), ('n03781244', 'monastery', 0.16321494), ('n03788195', 'mosque', 0.1179851)]
+IMG_20170506_121921_39F.jpg
+Predicted: [('n04590129', 'window_shade', 0.8720209), ('n04501370', 'turnstile', 0.029455807), ('n04604644', 'worm_fence', 0.018679483)]
+IMG_20170524_075612_FDA.jpg
+Predicted: [('n04275548', 'spider_web', 0.49356923), ('n03930313', 'picket_fence', 0.12405601), ('n04366367', 'suspension_bridge', 0.068666704)]
+IMG_20170528_122525_E5A.jpg
+Predicted: [('n04509417', 'unicycle', 0.2739386), ('n03599486', 'jinrikisha', 0.12303419), ('n03930313', 'picket_fence', 0.076799959)]
+lamp1.jpg
+Predicted: [('n03903868', 'pedestal', 0.52081132), ('n03388043', 'fountain', 0.38638577), ('n04355338', 'sundial', 0.02906975)]
+morning1.jpg
+Predicted: [('n03126707', 'crane', 0.28719467), ('n03837869', 'obelisk', 0.2732273), ('n03355925', 'flagpole', 0.089942239)]
+mountain1.jpg
+Predicted: [('n09193705', 'alp', 0.3272804), ('n09468604', 'valley', 0.2120955), ('n09246464', 'cliff', 0.19914176)]
+panda1.jpg
+Predicted: [('n02510455', 'giant_panda', 0.99326611), ('n04399382', 'teddy', 0.0040151407), ('n04254680', 'soccer_ball', 0.0009654403)]
+panda2.jpg
+Predicted: [('n02510455', 'giant_panda', 0.98932087), ('n02500267', 'indri', 0.0079799276), ('n02488702', 'colobus', 0.0016903522)]
+panda3.jpg
+Predicted: [('n02510455', 'giant_panda', 0.99998927), ('n02509815', 'lesser_panda', 5.093113e-06), ('n02483362', 'gibbon', 2.8856361e-06)]
+people1.jpg
+Predicted: [('n02977058', 'cash_machine', 0.20038697), ('n03630383', 'lab_coat', 0.082355745), ('n04005630', 'prison', 0.067673348)]
+persimmon1.jpg
+Predicted: [('n01983481', 'American_lobster', 0.24735962), ('n07697313', 'cheeseburger', 0.10845625), ('n07697537', 'hotdog', 0.090314128)]
+person1.jpg
+Predicted: [('n07248320', 'book_jacket', 0.43019336), ('n02883205', 'bow_tie', 0.42422557), ('n04350905', 'suit', 0.028455894)]
+person2.jpg
+Predicted: [('n04209133', 'shower_cap', 0.093030058), ('n02808304', 'bath_towel', 0.076561928), ('n02883205', 'bow_tie', 0.066582635)]
+person3.jpg
+Predicted: [('n02950826', 'cannon', 0.22020595), ('n04447861', 'toilet_seat', 0.18164125), ('n04008634', 'projectile', 0.11252845)]
+plant1.jpg
+Predicted: [('n03733281', 'maze', 0.11810837), ('n03930313', 'picket_fence', 0.092616878), ('n11939491', 'daisy', 0.073270939)]
+plant2.jpg
+Predicted: [('n03991062', 'pot', 0.60879219), ('n03775546', 'mixing_bowl', 0.17152245), ('n02808440', 'bathtub', 0.017313881)]
+playground1.jpg
+Predicted: [('n03733281', 'maze', 0.47159392), ('n03388043', 'fountain', 0.26698652), ('n03877845', 'palace', 0.063002363)]
+river1.jpg
+Predicted: [('n09332890', 'lakeside', 0.56614858), ('n02859443', 'boathouse', 0.22791354), ('n02951358', 'canoe', 0.039066002)]
+river2.jpg
+Predicted: [('n02980441', 'castle', 0.44870088), ('n09332890', 'lakeside', 0.32162732), ('n09468604', 'valley', 0.063490368)]
+road1.jpg
+Predicted: [('n03956157', 'planetarium', 0.23951326), ('n03733281', 'maze', 0.10144532), ('n09332890', 'lakeside', 0.099131487)]
+road2.jpg
+Predicted: [('n03733281', 'maze', 0.40634993), ('n03837869', 'obelisk', 0.10748431), ('n04486054', 'triumphal_arch', 0.060815927)]
+shanghai3.jpg
+Predicted: [('n03788195', 'mosque', 0.45742184), ('n02825657', 'bell_cote', 0.24772139), ('n04562935', 'water_tower', 0.029861547)]
+shanghai4.jpg
+Predicted: [('n02980441', 'castle', 0.20357044), ('n09246464', 'cliff', 0.19294664), ('n09332890', 'lakeside', 0.16503192)]
+shanghai5.jpg
+Predicted: [('n02894605', 'breakwater', 0.23511013), ('n04366367', 'suspension_bridge', 0.10099009), ('n09332890', 'lakeside', 0.094451174)]
+ski1.jpg
+Predicted: [('n04228054', 'ski', 0.87397563), ('n09193705', 'alp', 0.079064146), ('n03141823', 'crutch', 0.0080568474)]
+ski2.jpg
+Predicted: [('n04228054', 'ski', 0.67190617), ('n02860847', 'bobsled', 0.055507537), ('n03218198', 'dogsled', 0.048306566)]
+ski3.jpg
+Predicted: [('n04228054', 'ski', 0.82671183), ('n03218198', 'dogsled', 0.12086016), ('n09193705', 'alp', 0.033756115)]
+step.jpg
+Predicted: [('n02788148', 'bannister', 0.70145959), ('n03065424', 'coil', 0.26644978), ('n03933933', 'pier', 0.0098861195)]
+things1.jpg
+Predicted: [('n03447721', 'gong', 0.17859586), ('n03467068', 'guillotine', 0.092526801), ('n02939185', 'caldron', 0.083610609)]
+things2.jpg
+Predicted: [('n03991062', 'pot', 0.99814403), ('n03786901', 'mortar', 0.00037974273), ('n04522168', 'vase', 0.00024465434)]
+things3.jpg
+Predicted: [('n03967562', 'plow', 0.22469498), ('n03496892', 'harvester', 0.22125614), ('n04428191', 'thresher', 0.091444671)]
+things4.jpg
+Predicted: [('n04131690', 'saltshaker', 0.34469768), ('n03935335', 'piggy_bank', 0.15139219), ('n04560804', 'water_jug', 0.079144262)]
+things5.jpg
+Predicted: [('n04458633', 'totem_pole', 0.90404975), ('n03976657', 'pole', 0.0090755215), ('n03498962', 'hatchet', 0.0090492601)]
+trees1.jpg
+Predicted: [('n03930313', 'picket_fence', 0.074464992), ('n02133161', 'American_black_bear', 0.045736607), ('n11939491', 'daisy', 0.029372206)]
+trees2.jpg
+Predicted: [('n04532670', 'viaduct', 0.36236498), ('n03891251', 'park_bench', 0.11641257), ('n03837869', 'obelisk', 0.067316242)]
+truck1.jpg
+Predicted: [('n03417042', 'garbage_truck', 0.82580441), ('n03384352', 'forklift', 0.053454053), ('n03126707', 'crane', 0.039705426)]
+wall1.jpg
+Predicted: [('n03457902', 'greenhouse', 0.19830433), ('n04366367', 'suspension_bridge', 0.11084122), ('n04335435', 'streetcar', 0.065867543)]
