@@ -1,0 +1,7 @@
+Here we explain how the framework can be used to predict sentences for arbitrary images.
+
+1. Copy all images you want to predict for to one folder, eg: 'self_pic/img/'. For example, this folder contains multiple, collected from Reddit's r/photoshopbattles.
+2. Extract the CNN features for all images with 'get_img_features_VGG16.py'. This file will extract features into a file called `self_img_vgg_feats.npy`.
+3. Now that we have the features we can run the prediction! Use the script `predict_on_images.py`. The script takes the path to a model checkpoint and the path to the folder that holds the images, the `tasks.txt`, and the features `self_img_vgg_feats.npy`. Example invocation is `python predict_on_images.py "cv/model_checkpoint_coco_visionlab43.stanford.edu_lstm_11.14.p" -r self_pic`. The script will write the html file `result.html` which you can use to visualize the results in your browser.
+
+Note that the models are trained on a particular dataset (e.g. COCO dataset), so if you show them images they haven't seen during their training time then they will produce garbage. Along with the sentence predictions I'm also showing the log probabilities. When this is low (e.g. -10), this means that the model is confused about the image and likely won't make very good predictions. Conversely, higher numbers (such as -7) indicate that the model is relatively more confident in the outcome.
