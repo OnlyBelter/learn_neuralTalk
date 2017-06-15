@@ -92,36 +92,36 @@ def create_data_json(root_d, file_n):
 
 
 def main(params, model):
-    # # predict images' classes
-    # self_pic_dir = params['self_pic_dir']
-    # line = 0
-    # for root, dirs, files in os.walk(os.path.join(self_pic_dir, 'img')):
-    #     for f in files:
-    #         if f.endswith('jpg'):
-    #             # print(f)
-    #             img_path = os.path.join(root, f)
-    #             predict_results = process_pic(img_path, model=model)
-    #             predict_list = [': '.join(str(i) for i in list(_[1:])) for _ in predict_results]
-    #             output_str = '\t'.join([f, str(line)] + predict_list)
-    #             line += 1
-    #             with open(os.path.join(self_pic_dir, 'predict_images_class.txt'), 'a') as f_handle:
-    #                 f_handle.write(output_str + '\n')
-    #
-    # # get images' features
-    # features = np.zeros([line, 4096])
-    # line2 = 0
-    # model.layers.pop()
-    # model2 = Model(model.input, model.layers[-1].output)
-    # for root, dirs, files in os.walk(os.path.join(self_pic_dir, 'img')):
-    #     for f in files:
-    #         if f.endswith('jpg'):
-    #             print(f)
-    #             # f = 'butterfly1.jpg'
-    #             img_path = os.path.join(root, f)
-    #             features[line2] = process_pic(img_path, model=model2, predict=False)
-    #             line2 += 1
-    # np.save(os.path.join(self_pic_dir, 'self_img_vgg_feats'), features)
-    # features_file = 'self_img_vgg_feats.npy'
+    # predict images' classes
+    self_pic_dir = params['self_pic_dir']
+    line = 0
+    for root, dirs, files in os.walk(os.path.join(self_pic_dir, 'img')):
+        for f in files:
+            if f.endswith('jpg'):
+                # print(f)
+                img_path = os.path.join(root, f)
+                predict_results = process_pic(img_path, model=model)
+                predict_list = [': '.join(str(i) for i in list(_[1:])) for _ in predict_results]
+                output_str = '\t'.join([f, str(line)] + predict_list)
+                line += 1
+                with open(os.path.join(self_pic_dir, 'predict_images_class.txt'), 'a') as f_handle:
+                    f_handle.write(output_str + '\n')
+    
+    # get images' features
+    features = np.zeros([line, 4096])
+    line2 = 0
+    model.layers.pop()
+    model2 = Model(model.input, model.layers[-1].output)
+    for root, dirs, files in os.walk(os.path.join(self_pic_dir, 'img')):
+        for f in files:
+            if f.endswith('jpg'):
+                print(f)
+                # f = 'butterfly1.jpg'
+                img_path = os.path.join(root, f)
+                features[line2] = process_pic(img_path, model=model2, predict=False)
+                line2 += 1
+    np.save(os.path.join(self_pic_dir, 'self_img_vgg_feats'), features)
+    features_file = 'self_img_vgg_feats.npy'
     class_file = 'predict_images_class.txt'
     create_data_json(self_pic_dir, class_file)
 
