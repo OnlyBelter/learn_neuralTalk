@@ -10,7 +10,7 @@
         "pick: 0.109927"
       ],
       "filename": "butterfly1.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -22,7 +22,7 @@
         "Siberian_husky: 0.101252"
       ],
       "filename": "cat1.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -34,7 +34,7 @@
         "nipple: 0.0560479"
       ],
       "filename": "child1.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -46,7 +46,7 @@
         "piggy_bank: 0.0481567"
       ],
       "filename": "child3.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -58,7 +58,7 @@
         "alp: 0.113971"
       ],
       "filename": "cloud1.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -70,7 +70,7 @@
         "parachute: 0.0650732"
       ],
       "filename": "cloud2.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -82,7 +82,7 @@
         "lumbermill: 0.0150298"
       ],
       "filename": "disney1.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -94,7 +94,7 @@
         "pot: 0.00160371"
       ],
       "filename": "flower1.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -106,7 +106,7 @@
         "pot: 0.0891815"
       ],
       "filename": "flower2.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -118,7 +118,7 @@
         "tree_frog: 0.0916565"
       ],
       "filename": "flower3.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -130,7 +130,7 @@
         "maze: 0.0789334"
       ],
       "filename": "grass.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -142,7 +142,7 @@
         "airship: 0.0548356"
       ],
       "filename": "IMG_20160206_133916_F1D.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -154,7 +154,7 @@
         "mosque: 0.117985"
       ],
       "filename": "IMG_20161105_100414_A19.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -166,7 +166,7 @@
         "picket_fence: 0.0768"
       ],
       "filename": "IMG_20170528_122525_E5A.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -178,7 +178,7 @@
         "sundial: 0.0290697"
       ],
       "filename": "lamp1.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -190,7 +190,7 @@
         "soccer_ball: 0.00096544"
       ],
       "filename": "panda1.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -202,7 +202,7 @@
         "colobus: 0.00169035"
       ],
       "filename": "panda2.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -214,7 +214,7 @@
         "gibbon: 2.88564e-06"
       ],
       "filename": "panda3.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -226,7 +226,7 @@
         "prison: 0.0676733"
       ],
       "filename": "people1.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -238,7 +238,7 @@
         "hotdog: 0.0903141"
       ],
       "filename": "persimmon1.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -250,7 +250,7 @@
         "suit: 0.0284559"
       ],
       "filename": "person1.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -262,7 +262,7 @@
         "projectile: 0.112528"
       ],
       "filename": "person3.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -274,7 +274,7 @@
         "bathtub: 0.0173139"
       ],
       "filename": "plant2.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -286,7 +286,7 @@
         "canoe: 0.039066"
       ],
       "filename": "river1.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -298,7 +298,7 @@
         "valley: 0.0634904"
       ],
       "filename": "river2.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -310,7 +310,7 @@
         "lakeside: 0.165032"
       ],
       "filename": "shanghai4.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -322,7 +322,7 @@
         "lakeside: 0.0944512"
       ],
       "filename": "shanghai5.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -334,7 +334,7 @@
         "crutch: 0.00805685"
       ],
       "filename": "ski1.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -346,7 +346,7 @@
         "dogsled: 0.0483066"
       ],
       "filename": "ski2.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -358,7 +358,7 @@
         "balloon: 0.0718307"
       ],
       "filename": "sunfei1.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -370,7 +370,7 @@
         "malamute: 0.0173858"
       ],
       "filename": "sunfei2.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -382,7 +382,7 @@
         "notebook: 0.0639143"
       ],
       "filename": "sunfei3.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -394,7 +394,7 @@
         "white_wolf: 0.06298"
       ],
       "filename": "sunfei4.jpg",
-      "split": "train"
+      "split": "test"
     },
     {
       "senences": [],
@@ -406,7 +406,7 @@
         "shoe_shop: 0.0693737"
       ],
       "filename": "sunfei5.jpg",
-      "split": "train"
+      "split": "test"
     }
   ],
   "dataset": "self_img"

@@ -81,7 +81,7 @@ def create_data_json(root_d, file_n):
             each_img_dic['filename'] = x_list[0]
             each_img_dic['imgid'] = x_list[1]
             each_img_dic['senences'] = []
-            each_img_dic['split'] = 'train'
+            each_img_dic['split'] = 'test'
             each_img_dic['sentids'] = []
             each_img_dic['predict_classes'] = x_list[2:]
             a_dic['images'].append(each_img_dic)
