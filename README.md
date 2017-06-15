@@ -2,7 +2,11 @@
 
 
 # Overview
- Andrej Karpathy's code can find [here](https://github.com/karpathy/neuraltalk)
+This repository mainly services our final project of computer animation class this term.
+
+Our group member: FeiSun and I
+
+Andrej Karpathy's code can find [here](https://github.com/karpathy/neuraltalk)
 
 
 # Dependencies
