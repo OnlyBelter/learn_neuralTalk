@@ -31,6 +31,30 @@ We use pretrained model [VGG16](https://github.com/fchollet/keras/blob/master/ke
 
 You can download above files from [here](https://pan.baidu.com/s/1dEA0sXb)
 
+#### We tested this model by ourselves images.
+
+Some of images get pretty well result, like this one
+<div align="center">
+    <img src="https://github.com/OnlyBelter/learn_neuralTalk/blob/master/demo_images/001_bridge.png?raw=true">
+</div>
+
+and this one
+<div align="center">
+    <img src="https://github.com/OnlyBelter/learn_neuralTalk/blob/master/demo_images/002_ski.png?raw=true">
+</div>
+
+This one is not bad
+<div align="center">
+    <img src="https://github.com/OnlyBelter/learn_neuralTalk/blob/master/demo_images/003_dog.png?raw=true">
+</div>
+
+But this image get a very strange description, may because she dressed cat-like sweater.
+<div align="center">
+    <img src="https://github.com/OnlyBelter/learn_neuralTalk/blob/master/demo_images/004_person.png?raw=true">
+</div>
+
+
+
 # Improvement
 - Instead of using matlab code written by Andrej Karpathy, we create ourselves VGG16 model to extract the features of each image by [keras](https://keras.io/), you can see the source code in file '[get_img_features_VGG16.py](https://github.com/OnlyBelter/learn_neuralTalk/blob/master/get_img_features_VGG16.py)'.
 - We also can predict the classes of each image and have a look at the relation between 'prediction of image class' and 'generation of image description'. Our fundamental hypothesis is if we can get a very precise prediction on image classification, this may imply that we extract most important features about this image, then we can use these features to generate a better image description.
