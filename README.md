@@ -48,7 +48,7 @@ This one is not bad
     <img src="https://github.com/OnlyBelter/learn_neuralTalk/blob/master/demo_images/003_dog.png?raw=true">
 </div>
 
-But this image get a very strange description, may because she dressed cat-like sweater.
+But this image get a very strange description, may because she dressed a cat-like sweater.
 <div align="center">
     <img src="https://github.com/OnlyBelter/learn_neuralTalk/blob/master/demo_images/004_person.png?raw=true">
 </div>
