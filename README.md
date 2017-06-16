@@ -6,9 +6,9 @@ This repository mainly services our final project of computer animation class th
 
 - Our group member: FeiSun and I.
 
-- Andrej Karpathy's code can find [here](https://github.com/karpathy/neuraltalk)
+- Andrej Karpathy's code can be found [here](https://github.com/karpathy/neuraltalk)
 
-- Andrej Karpathy's paper, Deep Visual-Semantic Alignments for Generating Image Descriptions, can find [here](https://cs.stanford.edu/people/karpathy/cvpr2015.pdf)
+- Andrej Karpathy's paper, Deep Visual-Semantic Alignments for Generating Image Descriptions, can be found [here](https://cs.stanford.edu/people/karpathy/cvpr2015.pdf)
 
 # Dependencies
 Because We need to use tensorflow(it may not support Python2.7 in windows), We ues Python 3.5.

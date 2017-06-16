@@ -1,0 +1,35 @@
+Image name,Image Id,Class 1,class_P,des_LogP,des_P,des_P*100,Description
+butterfly1.jpg,0,nail,0.29,-5.65 ,0.00350 ,0.35022 ,a pair of scissors sitting on top of a wooden table
+cat1.jpg,1,Siamese_cat,0.44,-8.10 ,0.00030 ,0.03039 ,a cat is sitting on a toilet seat
+child1.jpg,2,bonnet,0.35,-12.55 ,0.00000 ,0.00035 ,a baby is holding a stuffed bear in his mouth
+child3.jpg,3,pajama,0.18,-11.06 ,0.00002 ,0.00158 ,a baby sitting on a bed with a stuffed bear
+cloud1.jpg,4,wing,0.37,-11.73 ,0.00001 ,0.00080 ,a plane flying over a mountain with a mountain in the backgrund
+cloud2.jpg,5,geyser,0.37,-7.94 ,0.00036 ,0.03551 ,a plane flying over a large body of water
+disney1.jpg,6,cannon,0.92,-8.86 ,0.00014 ,0.01422 ,a man sitting on a bench with a dog
+flower1.jpg,7,daisy,0.98,-10.61 ,0.00002 ,0.00246 ,a red flower in a green vase on a table
+flower2.jpg,8,picket_fence,0.24,-10.42 ,0.00003 ,0.00299 ,a red and white fire hydrant in a grassy field
+flower3.jpg,9,pot,0.18,-8.65 ,0.00017 ,0.01748 ,a bunch of bananas that are growing on a tree
+grass.jpg,10,patio,0.17,-9.15 ,0.00011 ,0.01063 ,a park bench is in the middle of a park
+IMG_20160206_133916_F1D.jpg,11,flagpole,0.15,-10.20 ,0.00004 ,0.00371 ,a kite flying in the sky with a sky background
+IMG_20161105_100414_A19.jpg,12,church,0.17,-11.37 ,0.00001 ,0.00115 ,a large building with a clock on the side of it
+IMG_20170528_122525_E5A.jpg,13,unicycle,0.27,-11.07 ,0.00002 ,0.00156 ,a man walking down a street with a bag
+lamp1.jpg,14,pedestal,0.52,-10.84 ,0.00002 ,0.00196 ,a clock tower with a clock on the top of it
+panda1.jpg,15,giant_panda,0.99,-14.92 ,0.00000 ,0.00003 ,a teddy bear sitting on a rock with a hat on its head
+panda2.jpg,16,giant_panda,0.99,-10.64 ,0.00002 ,0.00240 ,a bear is standing in a field of grass
+panda3.jpg,17,giant_panda,1,-10.79 ,0.00002 ,0.00207 ,a bear is standing in a field of grass
+people1.jpg,18,cash_machine,0.2,-7.15 ,0.00079 ,0.07869 ,a group of people standing around a table
+persimmon1.jpg,19,American_lobster,0.25,-9.92 ,0.00005 ,0.00492 ,a plate of food with a sandwich and a salad
+person1.jpg,20,book_jacket,0.43,-11.57 ,0.00001 ,0.00094 ,a man in a suit and tie is standing in front of a window
+person3.jpg,21,cannon,0.22,-14.14 ,0.00000 ,0.00007 ,a man in a suit and tie standing in front of a white toilet
+plant2.jpg,22,pot,0.61,-10.84 ,0.00002 ,0.00195 ,a vase with a flower in it on a table
+river1.jpg,23,lakeside,0.57,-12.61 ,0.00000 ,0.00033 ,a boat is floating in the water near a lake
+river2.jpg,24,castle,0.45,-6.27 ,0.00190 ,0.18960 ,a large bridge spanning the width of a river
+shanghai4.jpg,25,castle,0.2,-10.36 ,0.00003 ,0.00316 ,a group of people standing on top of a boat
+shanghai5.jpg,26,breakwater,0.24,-12.25 ,0.00000 ,0.00048 ,a large body of water with a boat on it
+ski1.jpg,27,ski,0.87,-5.10 ,0.00609 ,0.60905 ,a group of people standing on top of a snow covered slope
+ski2.jpg,28,ski,0.67,-4.76 ,0.00856 ,0.85632 ,a man riding a snowboard down a snow covered slope
+sunfei1.jpg,29,volcano,0.34,-4.98 ,0.00688 ,0.68790 ,a person flying a kite in the sky
+sunfei2.jpg,30,Samoyed,0.91,-9.85 ,0.00005 ,0.00529 ,a white and white cat sitting on a wooden bench
+sunfei3.jpg,31,grand_piano,0.13,-9.46 ,0.00008 ,0.00776 ,a woman sitting on a couch with a laptop
+sunfei4.jpg,32,Great_Pyrenees,0.58,-7.93 ,0.00036 ,0.03609 ,a group of sheep standing on top of a snow covered field
+sunfei5.jpg,33,bow_tie,0.11,-10.59 ,0.00003 ,0.00252 ,a man is holding a cat in his mouth

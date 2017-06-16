@@ -93,9 +93,10 @@ if __name__ == "__main__":
 
   parser = argparse.ArgumentParser()
   parser.add_argument('checkpoint_path', type=str, help='the input checkpoint')
-  parser.add_argument('-r', '--root_path', default='example_images', type=str, help='folder with the images, tasks.txt file, and corresponding vgg_feats.mat file')
+  parser.add_argument('-r', '--root_path', default='self_pic', type=str, help='folder with the images, tasks.txt file, and corresponding vgg_feats.mat file')
   parser.add_argument('-b', '--beam_size', type=int, default=1, help='beam size in inference. 1 indicates greedy per-word max procedure. Good value is approx 20 or so, and more = better.')
 
+  # args = parser.parse_args()
   args = parser.parse_args()
   params = vars(args) # convert to ordinary dict
   print('parsed parameters:')

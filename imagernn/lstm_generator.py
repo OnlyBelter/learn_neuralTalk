@@ -64,7 +64,7 @@ class LSTMGenerator:
     IFOG = np.zeros((n, d * 4))
     IFOGf = np.zeros((n, d * 4)) # after nonlinearity
     C = np.zeros((n, d))
-    for t in xrange(n):
+    for t in range(n):
       # set input
       prev = np.zeros(d) if t == 0 else Hout[t-1]
       Hin[t,0] = 1
@@ -154,7 +154,7 @@ class LSTMGenerator:
     dHin = np.zeros(Hin.shape)
     dC = np.zeros(C.shape)
     dX = np.zeros(X.shape)
-    for t in reversed(xrange(n)):
+    for t in reversed(range(n)):
 
       if tanhC_version:
         tanhCt = np.tanh(C[t]) # recompute this here
@@ -259,7 +259,7 @@ class LSTMGenerator:
           p1 = e1 / np.sum(e1)
           y1 = np.log(1e-20 + p1) # and back to log domain
           top_indices = np.argsort(-y1)  # we do -y because we want decreasing order
-          for i in xrange(beam_size):
+          for i in range(beam_size):
             wordix = top_indices[i]
             beam_candidates.append((b[0] + y1[wordix], b[1] + [wordix], h1, c1))
         beam_candidates.sort(reverse = True) # decreasing order
@@ -288,11 +288,14 @@ class LSTMGenerator:
     return predictions
 
 def ymax(y):
+  # here y is a list, its length equal to the number of words in description
+  # eg: y = [[-8.968, -12.655, -9.146 ..., -13.366 ...]]
   """ simple helper function here that takes unnormalized logprobs """
   y1 = y.ravel() # make sure 1d
   maxy1 = np.amax(y1)
+  # this step make sure all e1 is in range (0, 1)
   e1 = np.exp(y1 - maxy1) # for numerical stability shift into good numerical range
-  p1 = e1 / np.sum(e1)
+  p1 = e1 / np.sum(e1)  # p1 can be treat as probability of each word
   y1 = np.log(1e-20 + p1) # guard against zero probabilities just in case
   ix = np.argmax(y1)
   return (ix, y1[ix])
